@@ -32,7 +32,7 @@ def self.find_by_name(name)
     if song.name == name 
       return song 
     else
-      false
+     return false
     end 
   end 
  end
