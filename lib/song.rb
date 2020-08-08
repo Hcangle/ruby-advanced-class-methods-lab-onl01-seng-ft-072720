@@ -30,9 +30,9 @@ end
 def self.find_by_name(name) 
   @@all.each do |song|
     if song.name == name 
-      return song 
+      puts song 
     else
-      puts "falsey"
+      puts falsey
     end 
   end 
  end
