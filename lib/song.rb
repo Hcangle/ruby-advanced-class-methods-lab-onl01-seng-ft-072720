@@ -61,5 +61,4 @@ def self.create_from_filename(filename)
     song
   end
 
-end	
 end
